@@ -18,7 +18,7 @@ jobs:
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
       
       
-    - uses: mr-smithers-excellent/docker-build-push
+    - uses: mr-smithers-excellent/docker-build-push@v3
     - name: Build and Push the Docker Image
       with: 
               image: sasespirkovski/docker-repo
