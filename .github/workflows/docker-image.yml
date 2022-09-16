@@ -1,7 +1,7 @@
 name: Build Docker Image
 on: push
 jobs:
-build-project:
+  build-container:
   name: Build Docker container image
   runs-on: ubuntu-latest
   steps:
