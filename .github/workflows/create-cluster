@@ -3,6 +3,7 @@ name: Create Cluster
 on: 
   push:
     branches: [ "master" ]
+    workflow_dispatch 
 
 jobs:
   create-cluster:
