@@ -1,6 +1,8 @@
 name: Create Cluster
 
-on: pull_request
+on: 
+  push:
+    branches: [ "master" ]
 
 jobs:
   create-cluster:
