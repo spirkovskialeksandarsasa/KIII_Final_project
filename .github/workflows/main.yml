@@ -43,3 +43,8 @@ jobs:
         
       - name: Push to Docker Hub
         run: docker push sasespirkovski/docker-repo:${{steps.version.outputs.tag}}
+        
+      - name: Kind Cluster
+        uses: helm/kind-action@v1.3.0
+
+
