@@ -46,5 +46,11 @@ jobs:
         
       - name: Kind Cluster
         uses: helm/kind-action@v1.3.0
+        
+      - name: Helm Deploy
+        uses: vimeda/helm@v1.6.8
+
+
+
 
 
