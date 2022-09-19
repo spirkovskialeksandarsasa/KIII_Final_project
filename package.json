@@ -1,6 +1,6 @@
 {
   "name": "uitp-petfriend-frontend",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "private": true,
   "dependencies": {
     "@chakra-ui/button": "^2.0.2",
