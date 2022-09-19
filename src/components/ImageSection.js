@@ -10,7 +10,7 @@ import './Button.css';
 function ImageSection(){
     return(
         <div className='header'>
-            <h1>Would rather become a petfriend and get paid?</h1>
+            <h1>Test?</h1>
             <AwesomeButton href="/become" className="applybutton">APPLY NOW</AwesomeButton>
         </div>
 
